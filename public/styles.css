@@ -1,0 +1,114 @@
+:root {
+  --primary: #a0beff; 
+  --bg: #ffc600;
+  --gray: #333;
+  --deeppink: deeppink;
+}
+body {
+  padding: 0rem 5rem;
+  background-image: linear-gradient(130deg, var(--primary), var(--deeppink));
+  color: var(--gray);
+  font-family: 'Noto Serif';
+}
+ .container {
+  background: #eee;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 3px rgba(0,0,0,.2);
+
+}
+.outdoor_banner {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 0 5px 3px rgba(0,0,0,.3);
+}
+.title {
+  font-size: 1.2rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* background: #eee; */
+  padding: .5rem 0;
+  margin-bottom: 1rem;
+}
+nav ul {
+  display: flex;
+  align-items: flex-end;
+}
+nav ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+nav ul li a {
+  /* padding: .5rem; */
+  font-size: 16px;
+}
+nav ul li a:hover {
+  color: crimson;
+}
+.content {
+  line-height: 1.6;
+  background: #fff;
+  padding: 1rem;
+}
+
+#form {
+  max-width: 300px;
+  padding: 1rem;
+  border: 6px solid var(--gray);
+  border-radius: 4px;
+}
+input[type="text"], textarea {
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: .5rem;
+  border-radius: 4px;
+  border: 1px solid var(--gray);
+}
+button {
+  width: 100%;
+  padding: .5rem;
+  font-size: inherit;
+  font-family: inherit;
+  background: crimson;
+  color: #fff;
+  border: 4px solid lightcoral;
+  border-radius: 4px;
+}
+button:hover {
+  cursor: pointer;
+}
+.details {
+ border: 4px solid var(--gray);
+ padding: 1rem;
+ position: relative;
+}
+.delete {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  width: 20px;
+  height: 25px;
+}
+.delete:hover {
+  color: crimson;
+  font-weight: 800;
+}
+.blog a {
+  display: block;
+  margin-bottom: 2rem;
+  padding-left: 20px;
+  border-left: 6px solid transparent;
+}
+.blog a:hover {
+  border-left: 6px solid crimson;
+  color: crimson;
+}
+
+.trashcan_img {
+  width: 100%;
+  
+}
